@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url('v1016-b-09.jpg');
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  
+}
+#bd{
+box-shadow: 10px 10px 15px rgba(0.1,0.1, 0.1, 0.1);
+text-align: center;
+align-items: center;
+justify-content: center;
+display: block;
+padding: 30px;
+flex-basis: 40%;
+font-weight: bolder;
+width: auto;
+height: auto;
+}
+#bd button{
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#bd button:hover{
+background-color: rgb(7, 7, 109);
+}
+#mere{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+#mere div{
+  margin-right: 5%;
+  
+}
+#div2{
+  height: 50%;
+  width: 30%;
+  
+  
+}
+#div2 img{
+  height: 100%;
+  width: 100%;
+}
+#div2 button{
+  background-color: blue;
+  padding: 05px;
+    color: white;
+  font-weight: bolder;
+  
+}
+
+#div3{
+  background-color:  rgba(0.1,0.1, 0.1, 0.1);
+  height: 50%;
+  width: 30%;
+  padding: 10px;
+  
+}
+#passe{
+  margin-top: 5%;
+  height: 30px;
+  background-color: rgba(0.1,0.1, 0.1, 0.1);
+  border-top: none;
+  border-left: none;
+   border-right: none;
+   border-bottom: black;
+   padding: 10px;
+   color: white;
+   width: 90%;
+}
+ .btn{
+  margin-top: 5%;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+ }
+ #actu{
+  visibility: hidden;
+  
+ }
