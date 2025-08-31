@@ -55,6 +55,16 @@ function pass (){
     }else{
           mot.textContent='MOT DE PASSE INCORRECTE'
          buton.style.backgroundColor="red";
-         buton.textContent='réesayer'
+         buton.textContent='réesayer';
+           actu.style.visibility='unset';
     }
 }
+
+
+//creation d un titre a partir du js sans passer par html
+    let div4 = document.getElementsById('div4');
+    let titre = document.createElement('h1');
+    let texte = document.createTextNode('creation d un titre a partir du js sans passer par html');
+    titre.appendChild(texte);
+    div4.appendChild(titre);
+
