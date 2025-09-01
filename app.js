@@ -39,6 +39,7 @@ function btn4(){
 function  eee (){
     let va = document.getElementById('img1');
     va.src='télécharger (1).jpg';
+
 }
 
 //cette fonction me permet de creer un formulaire qui indique si le mot de passe saisis est valide ou non 
@@ -68,3 +69,24 @@ function pass (){
     titre.appendChild(texte);
     div4.appendChild(titre);
 
+    function modale(){
+        let bouton1 = document.getElementById('bt');
+         let modale = document.getElementById('modale');
+
+         modale.style.display='initial';
+        bouton1.style.display='none';
+    }
+
+    function suppr(){
+        let parent = document.getElementById('div4');
+        let bouton2 = document.getElementById('x'); 
+        let modale = document.getElementById('modale');
+        let bouton1 = document.getElementById('bt');
+
+       
+        parent.removeChild(modale);
+        bouton1.style.display='initial';
+        
+
+    }
+     modale.style.backgroundColor='red';

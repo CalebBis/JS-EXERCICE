@@ -7,9 +7,66 @@ body{
   background-image: url('v1016-b-09.jpg');
   background-size: cover;
   color: white;
-  padding: 20px;
   
 }
+
+header{
+  height: auto;
+  width: auto;
+  font-weight: bolder;
+  padding: 20px;
+}
+header div {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+header div span{
+  height: auto;
+  width: auto;
+}
+#span1{
+  float: left;
+}
+
+#span2 a{
+  margin-left: 5%;
+}
+#span3{
+  float: right;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#divh2{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  height: 100vh;
+  width: 30%;
+  position: absolute;
+  left: 69%;
+  
+  
+  
+}
+#divh2 button{
+  background-color: red;
+  width: 20%;
+  position: relative;
+  left: 85%;
+  
+}
+#divh2 a{
+  margin-bottom: 5%;
+  font-weight: bolder;
+}
+
 #bd{
 box-shadow: 10px 10px 15px rgba(0.1,0.1, 0.1, 0.1);
 text-align: center;
@@ -21,6 +78,7 @@ flex-basis: 40%;
 font-weight: bolder;
 width: auto;
 height: auto;
+margin-top: 5%;
 }
 #bd button{
   background-color: blue;
@@ -89,3 +147,49 @@ background-color: rgb(7, 7, 109);
   visibility: hidden;
   
  }
+ #div4{
+  height:auto ;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+   background-color:  rgba(0.1,0.1, 0.1, 0.1);  
+
+    
+ }
+ #bt{
+  padding: 5px;
+  background-color: blue;
+  font-weight: bolder;
+  color: white;
+ }
+#x{
+  position: relative;
+  left: 85%;
+  background-color: red;
+  padding: 3px;
+  color: white;
+  font-weight: bolder;
+  width: 15%;
+  
+}
+#modale{
+display: none;
+  background-color: white;
+    color: black;
+     padding: 10px;
+  
+}
+
+@media (max-width:550px) {
+  #span3{
+    display: none ;
+
+  }
+  #span2{
+    display: none;
+  }
+  
+}
